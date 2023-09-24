@@ -153,4 +153,15 @@ class EmbeddedChatApi {
 Demo playgroud for api package
 ![playground_api](https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/44eea372-1acc-464d-9e2a-a38ae5a0a030)
 
+### Support for slash commands
+We have worked on supporting slash commands along with any UI interactions they perform.
+
+
+https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/7c7ed7ab-6030-4266-8dff-b923a6014bb3
+
+
+
+
+
+
 
