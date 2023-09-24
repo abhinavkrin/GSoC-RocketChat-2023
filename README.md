@@ -157,7 +157,10 @@ Demo playgroud for api package
 We have worked on supporting slash commands along with any UI interactions they perform.
 
 
-https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/7c7ed7ab-6030-4266-8dff-b923a6014bb3
+https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/26b66db2-058f-4049-9f71-ad4b712d8d9a
+
+
+
 
 
 
