@@ -30,11 +30,13 @@ The goal of the project is to make a ready-to-use chat solution that could be in
 
 ### Sneak Peak
 EmbeddedChat integrated into my esportsweb.in website.
-![Screenshot from 2023-09-24 17-52-05](https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/da7e7e9f-f944-4c9d-8b1d-c882d081c4ab)
+![EmbeddedChat Reac component](https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/e42fd503-c7f7-4f30-abbb-9123d9c87257)
+
 
 ### Moving to mono repo
 EmbeddedChat's new mono repo structure
-![structure](https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/51b8ef1f-13c6-47f3-bac7-e48dd3b16197)
+![structure](https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/ae7593e1-5479-465a-ab9a-e73c6ee85cd6)
+
 - *auth* - The auth package includes functions to easily log into a Rocket chat server. Though it is used by embeddedchat's react and react-native client, developers can use this package for their own use cases.
 - *api* - The api package includes functions that are all required to create a chat application using the Rocketchat server. It has functions like connect, login, sendMesage, pinMessage, starMessage, deleteMessage, triggerBlockAction, etc. to perform various operations. One can listen to new/updated message events by attaching event listeners using `addMessageListener`. There are other event listeners which could be added using `addMessageDeleteListener`, `addTypingStatusListener`, `addActionTriggeredListener`, `addUiInteractionListener`.
 - *react* - The react package includes the react components to integrate EmbeddedChat.
@@ -42,7 +44,8 @@ EmbeddedChat's new mono repo structure
 - *htmembed* - With this project EmbeddedChat could be integrated into any web app by simply embedding an HTML snippet.
 
 ### Storybook setup
-![Screenshot from 2023-09-25 12-09-07](https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/50cd7b20-df96-43cc-a86b-a4f869e84ee5)
+![Screenshot from 2023-09-25 12-09-07](https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/5e7e6f05-6ead-4d3b-bb0e-22befacf3cf1)
+
 
 ### HTML Embedd Feature
 Simple integrate embedded chat by pasting html snippet into your website
@@ -73,11 +76,13 @@ Simple integrate embedded chat by pasting html snippet into your website
       </script>
 ```
 HTML Embedded in action
-![htmlembed](https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/1db54c74-095c-42b6-8cc4-e0e320af8748)
+![htmlembed](https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/8e803ef2-e4a0-48b9-a931-cb1e778d794d)
+
 
 ### Theming
 We can customize EmbeddedChat by passing a custom theme object. Hence, it could take the look and feel of the app or website. We can also customize components by custom stylesheet or passing custom class names through the theme object.
-![Customizing using theme](https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/8dd8f797-0ede-4f87-996d-42d23ddcbba0)
+![Customizing using theme](https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/96c191c5-a27f-4999-8fd4-96b0b5035493)
+
 
 ### Improving API
 Our `api` package exposes the `EmbeddedChatApi` class. It comes with a bunch of APIs that could be used to login, send, pin, edit, star or delete message, attach listeners for realtime events. It has the following structure:
@@ -154,19 +159,24 @@ class EmbeddedChatApi {
 }
 ```
 Demo playgroud for api package
-![playground_api](https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/44eea372-1acc-464d-9e2a-a38ae5a0a030)
+![playground_api](https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/af0952dd-d9de-4ab4-9a12-baaea9b19c6f)
+
 
 ### Support for slash commands
 We have worked on supporting slash commands along with any UI interactions they perform.
 
 
-https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/26b66db2-058f-4049-9f71-ad4b712d8d9a
+https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/b4c0dd2e-e77f-49d5-8eb5-f27b1e011817
+
+
 
 ### Improving Auth
 We now support token-based authentication for EmbeddedChat. An app can pass the access token of the services that are configured in RocketChat to EmbeddedChat. It would be useful when the app does not want to show any additional login UI for EmbeddedChat.
 
 
-https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/a2053df8-3dec-4946-b13f-1bc90008cd48
+https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/8c36b974-927f-4b12-bd62-2830763ec681
+
+
 
 ## 🚀 Contributions
 ### Pull requests to Embeddedchat
