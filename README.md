@@ -206,7 +206,7 @@ Besides EmbeddedChat I also contributed to other RocketChat Projects [GSoC Commu
 
 A big big thank you to my mentor for the guidance and support before and throughout GSoC. 🙏 
 I learned beyond GSoC from him and am forever grateful to be mentored by him.
-- **Sidharth Mohanty** - [GitHub](https://github.com/sidmohanty11), [LinkedIn]([https://www.linkedin.com/in/rohanlekhwani](https://www.linkedin.com/in/sidmohanty11/)https://www.linkedin.com/in/sidmohanty11/), [Twitter](https://twitter.com/sidmohanty11) 
+- **Sidharth Mohanty** - [GitHub](https://github.com/sidmohanty11), [LinkedIn](https://www.linkedin.com/in/sidmohanty11/), [Twitter](https://twitter.com/sidmohanty11) 
 
 ## 🔗 Links
 
