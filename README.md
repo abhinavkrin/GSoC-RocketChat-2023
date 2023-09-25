@@ -223,7 +223,7 @@ Learned something new today? Reciprocate the love. ⭐ this repo for good karma.
 Want to discuss about GSoC / Rocket.Chat / Open-source ? Let's connect!
 <div align="center">
 
-| **Student** | Rohan Lekhwani |
+| **Student** | Abhinav Kumar |
 |:--------------------|:-------------------|
 | **Organization** | [Rocket.Chat](https://rocket.chat/) |
 | **Project** | [EmbeddedChat 2023](https://summerofcode.withgoogle.com/programs/2023/projects/sUXGt89N) |
