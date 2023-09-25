@@ -41,6 +41,9 @@ EmbeddedChat's new mono repo structure
 - *react-native* - The react-native project aims at using EmbeddedChat in react native mobile apps.
 - *htmembed* - With this project EmbeddedChat could be integrated into any web app by simply embedding an HTML snippet.
 
+### Storybook setup
+![Screenshot from 2023-09-25 12-09-07](https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/50cd7b20-df96-43cc-a86b-a4f869e84ee5)
+
 ### HTML Embedd Feature
 Simple integrate embedded chat by pasting html snippet into your website
 ```
@@ -159,12 +162,67 @@ We have worked on supporting slash commands along with any UI interactions they 
 
 https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/26b66db2-058f-4049-9f71-ad4b712d8d9a
 
+### Improving Auth
+We now support token-based authentication for EmbeddedChat. An app can pass the access token of the services that are configured in RocketChat to EmbeddedChat. It would be useful when the app does not want to show any additional login UI for EmbeddedChat.
 
 
+https://github.com/abhinavkrin/GSoC-RocketChat-2023/assets/15830206/a2053df8-3dec-4946-b13f-1bc90008cd48
 
+## 🚀 Contributions
+### Pull requests to Embeddedchat
+| PR ID  | Title with Link                                        |
+| --- | ----------------------------------------------------- |
+| 217 | [IMPROVE] Project-restructure [Link](https://github.com/RocketChat/EmbeddedChat/pull/217) |
+| 218 | React bootstrap [Link](https://github.com/RocketChat/EmbeddedChat/pull/218) |
+| 222 | Theming Foundation Set up [Link](https://github.com/RocketChat/EmbeddedChat/pull/222) |
+| 223 | [NEW] Button replacement for fuselage [Link](https://github.com/RocketChat/EmbeddedChat/pull/223) |
+| 224 | UI refactoring/box [Link](https://github.com/RocketChat/EmbeddedChat/pull/224) |
+| 226 | Improve/auth + ActionButton/Icon/Input Component [Link](https://github.com/RocketChat/EmbeddedChat/pull/226) |
+| 227 | New/added apis [Link](https://github.com/RocketChat/EmbeddedChat/pull/227) |
+| 228 | New/slash commands+UI kit+theming [Link](https://github.com/RocketChat/EmbeddedChat/pull/228) |
+| 229 | New/html embed [Link](https://github.com/RocketChat/EmbeddedChat/pull/229) |
+| 230 | New/message component+avatar [Link](https://github.com/RocketChat/EmbeddedChat/pull/230) |
+| 232 | React Native Project [Link](https://github.com/RocketChat/EmbeddedChat/pull/232) |
+| 233 | Fix/new icon components [Link](https://github.com/RocketChat/EmbeddedChat/pull/233) |
 
+[View all PRs to EmbeddedChat](https://github.com/RocketChat/EmbeddedChat/pulls?q=is%3Apr+author%3Aabhinavkrin)
 
+### My overall contributions to RocketChat
+Besides EmbeddedChat I also contributed to other RocketChat Projects [GSoC Community Hub](https://github.com/RocketChat/GSoC-Community-Hub/pulls?q=is%3Apr+author%3Aabhinavkrin), [RC4Community](https://github.com/RocketChat/RC4Community/pulls?q=is%3Apr+author%3Aabhinavkrin), [RC4Conferences](https://github.com/RocketChat/RC4Conferences/pulls?q=is%3Apr+author%3Aabhinavkrin).
 
+## 🎓 Mentor
+
+A big big thank you to my mentor for the guidance and support before and throughout GSoC. 🙏 
+I learned beyond GSoC from him and am forever grateful to be mentored by him.
+- **Sidharth Mohanty** - [GitHub](https://github.com/sidmohanty11), [LinkedIn]([https://www.linkedin.com/in/rohanlekhwani](https://www.linkedin.com/in/sidmohanty11/)https://www.linkedin.com/in/sidmohanty11/), [Twitter](https://twitter.com/sidmohanty11) 
+
+## 🔗 Links
+
+- Read my EmbeddedChat project proposal that got me accepted to GSoC [here](https://docs.google.com/document/d/1N6oySFsLxA9fSooTp8pHlCjnJwzVYfC8Cbems-z_uMY/edit?usp=sharing).
+
+- My GSoC Presentation can be found [here](https://docs.google.com/presentation/d/1be7EnIjVjPN1vx11I06GeNqkDlWuynKZRKRYX9_ePOA/edit?usp=sharing).
+
+- Watch the above presentation in video - [here](https://www.youtube.com/watch?v=Y5bbkxRyu4o) !
+
+## ❤️ Support
+Learned something new today? Reciprocate the love. ⭐ this repo for good karma.
+
+## 💬 Connect With Me    
+Want to discuss about GSoC / Rocket.Chat / Open-source ? Let's connect!
+<div align="center">
+
+| **Student** | Rohan Lekhwani |
+|:--------------------|:-------------------|
+| **Organization** | [Rocket.Chat](https://rocket.chat/) |
+| **Project** | [EmbeddedChat 2023](https://summerofcode.withgoogle.com/programs/2023/projects/sUXGt89N) |
+| **GitHub** | [@abhinavkrin](https://github.com/abhinavkrin) |
+| **LinkedIn** | [abhinavkrin](https://www.linkedin.com/in/abhinavkrin) |
+| **Twitter** | [abhinavkr_in](https://www.twitter.com/abhinavkr_in) |
+| **Website** | [avitechlab.com](https://avitechlab.com) |
+| **Email** | <a href="mailto:abhinav@avitechlab.com">abhinav@avitechlab.com</a> |
+| **Rocket.Chat** | [abhinav.kumar30](https://open.rocket.chat/direct/abhinav.kumar30) |
+       
+</div>
 
 
 
